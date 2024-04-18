@@ -1,0 +1,22 @@
+ Directory of d:\
+
+27.03.2024  10:39    <DIR>          Biligoba
+18.04.2024  15:26    <DIR>          Burak
+24.06.2023  15:16    <DIR>          Gizem
+24.06.2023  15:23    <DIR>          GizemClient
+25.12.2023  11:43    <DIR>          Merchant
+               0 File(s)              0 bytes
+               5 Dir(s)  201.100.197.888 bytes free
+
+d:\>cd Burak/Chat-Udp/src
+
+d:\Burak\Chat-Udp\src>javac UDPClient.java
+
+d:\Burak\Chat-Udp\src>javac UDPServer.java
+
+d:\Burak\Chat-Udp\src>
+d:\Burak\Chat-Udp\src>@echo off
+cd /d d:\Burak\Chat-Udp\src
+start cmd /k "java UDPServer"
+start cmd /k "java UDPClient"
+
